@@ -1,0 +1,21 @@
+
+	-ruby -v, me dice la versión de ruby instalada en mi compu
+
+	INSTALANDO RVM
+	-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+	-gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+	-\curl -sSL https://get.rvm.io | bash -s stable, instala rvm
+	hasta aqui ya me instala rvm
+
+	-gedit ~/.bash_profile, edito aqui mi variable de entorno de rvm
+	-source ~/.bash_profile, este comando no estoy seguro
+	-rvm, muestra la documentacion de rvm
+
+	INSTALANDO LA VERSION DE RUBY
+	rvm install 2.5.3, instalamos la version 2.5.3 de ruby
+	rvm use 2.5.3, declaramos que vamos a usar la version 2.5.3 de ruby
+
+	FALTA PONER QUE PUSO POR DEFAULT LA VERSION 2.5.3
+
+
+	-irb, me permite interactuar en la terminal con sintaxis de ruby
