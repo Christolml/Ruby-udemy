@@ -19,3 +19,11 @@
 
 
 	-irb, me permite interactuar en la terminal con sintaxis de ruby
+
+	-ruby 01_example.rb, me permite ejecurar un archivo ruby en la terminal
+	-puts, el método puts se comporta como mi console.log(), si nomas dejo puts me imprime una linea en blanco como salto de linea
+	-print, es igual a puts solo que este no da saltos de lineas ni espacios
+	-p, este nos da información de programación detallada de la salida
+
+
+
