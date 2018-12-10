@@ -25,5 +25,13 @@
 	-print, es igual a puts solo que este no da saltos de lineas ni espacios
 	-p, este nos da información de programación detallada de la salida
 
+	-gets, me permite introducir datos por la terminal un problema al usarlo así es que se me guarda un salto de linea al terminarlo con enter
+	-gets.chomp, me permite introducir datos por la terminal sin guardar el salto de linea
+	name = gets
+	puts "Thank you #{name} for giving me your name"
+	name = gets.chomp
+	puts "Thank you #{name} for giving me your name"
+
+	age = gets.chomp.to_i, me convierte la entrada a un entero
 
 
